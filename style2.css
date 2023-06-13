@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(./Poppins/Poppins-Medium.ttf);
+    }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid #383838;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+div h2{
+    color: #fc5c1c;
+    font-size: 36px;
+    margin: 30px 45px;
+    font-family: 'Dancing Script', cursive;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 35px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:  #fc5c1c;
+    font-size: 16px;
+    font-family: Poppins-Medium;
+}
+#hero{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap: 7px;
+}
+#hero p{
+   font-size: 18px;
+   font-family: Poppins-Medium; 
+   font-size: 18px;
+}
+#hero span{
+    color: #fc5c1c;
+}
+#hero h3{
+    font-size: 48px;
+    font-family: poppins-medium;
+    font-weight: 400;
+}
+#hero h4{
+    font-size: 36px;
+    font-family: Poppins-medium;
+    font-weight: 400;
+}
+.short{
+    font-family: poppins-medium;
+    font-size: 15px;
+    line-height: 28px;
+}
+.socials{
+    display: flex;
+    justify-content: center;
+}
+div img{
+    margin: 10px;
+}
+#skills{
+   justify-content: center;
+   text-align: center;
+   height: 120vh;
+   padding-top: 110px;
+   margin-top: -110px;
+}
+h5{
+    font-family: poppins-medium;
+    color: #fc5c1c;
+    margin-left: 35px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+div p{
+    font-family: poppins-medium;
+    font-size: 20px;
+}
+.skill-container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    margin: 30px;
+    margin-right: 80px;
+}
+.skill-container img{
+      width: 100%;
+      height: 300px;
+      border-radius: 20px;
+      margin-bottom: 10px;
+      object-fit: cover;
+}
+#projects{
+    margin-top: -110px;
+    padding-top: 110px;
+    height: 170vh;
+}
+.project-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin:  30px;
+    margin-right: 80px;
+    gap: 50px;
+}
+.project-container img{
+    width: 100%;
+    height: 500px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.footer{
+    justify-content: center;
+    text-align: center;
+    height: 30vh;
+}
+h6{
+    font-family: poppins-medium;
+    font-size: 40px;
+    text-align: center;
+}
