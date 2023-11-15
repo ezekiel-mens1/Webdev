@@ -38,11 +38,16 @@ nav ul li a{
     font-size: 16px;
     font-family: Poppins-Medium;
 }
+.toogle-btn{
+    display: none !important;
+    cursor: pointer;
+}
 #hero{
     justify-content: center;
     text-align: center;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     height: 100vh;
     gap: 7px;
 }
@@ -111,8 +116,7 @@ div p{
       object-fit: cover;
 }
 #projects{
-    margin-top: -110px;
-    padding-top: 110px;
+    padding-top: 140px;
     height: 170vh;
 }
 .project-container{
@@ -132,9 +136,82 @@ div p{
     justify-content: center;
     text-align: center;
     height: 30vh;
+    padding-top: 80px;
 }
 h6{
     font-family: poppins-medium;
     font-size: 40px;
     text-align: center;
+}
+@media (max-width: 600px) {
+    
+    nav ul li{
+        display: none;
+    }
+
+    div h2{
+        font-size: 26px;
+        margin: 20px 35px;
+    }
+    .toogle-btn{
+        display: inline-block;
+        background-color: white;
+    }
+    #hero{
+        height: 60vh;
+    }
+    #skills{
+        height: 180vh;
+        padding-top: 0px;
+    }
+    .skill-container{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .project-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .project-container img{
+        object-fit: cover;
+    }
+    .footer{
+        padding-top: 120px;
+        height: 20vh;
+    }
+}
+
+@media (max-width: 800px){
+    nav ul li{
+        display: none;
+    }
+    .toogle-btn{
+        display: block !important;
+    }
+    #hero{
+        height: 55vh;
+    }
+
+#skills{
+    height: 180vh;
+    padding-top: 0px;
+}
+.skill-container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+.project-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+.footer{
+    padding-top: 120px;
+    height: 20vh;
+}
 }
