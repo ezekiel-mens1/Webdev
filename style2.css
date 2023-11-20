@@ -143,6 +143,40 @@ h6{
     font-size: 40px;
     text-align: center;
 }
+.footer-last{
+    height: 40vh;
+    display: flex;
+    padding: 60px;
+    column-gap: 9rem;
+    flex-wrap: wrap;
+    background: #f1f9ff;
+}
+
+.sm h3{
+    font-family: poppins-medium;
+    font-weight: 900;
+}
+.sm p{
+    font-size: 15px;
+}
+.sm a{
+    margin-right: 10px;
+}
+.sm a i{
+    margin-top: 30px;
+    border-radius: 50%;
+}
+.SM a{
+   display: block;
+   text-decoration: none;
+   color: #565151;
+   font-family: arial;
+   padding: 5px;
+}
+.SM h3{
+    font-family: poppins-medium;
+    font-weight: bolder;
+}
 @media (max-width: 600px) {
     
     nav ul li{
