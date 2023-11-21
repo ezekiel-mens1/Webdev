@@ -38,8 +38,8 @@ nav ul li a{
     font-size: 16px;
     font-family: Poppins-Medium;
 }
-.toogle-btn{
-    display: none !important;
+#toggle-btn{
+    display: none;
     cursor: pointer;
 }
 #hero{
@@ -187,9 +187,8 @@ h6{
         font-size: 26px;
         margin: 20px 35px;
     }
-    .toogle-btn{
-        display: inline-block;
-        background-color: white;
+    #toggle-btn{
+        display: block;
     }
     #hero{
         height: 60vh;
@@ -239,6 +238,7 @@ h6{
     grid-template-columns: 1fr;
     gap: 20px;
 }
+
 .project-container{
     display: grid;
     grid-template-columns: 1fr;
@@ -248,4 +248,29 @@ h6{
     padding-top: 120px;
     height: 20vh;
 }
+.footer-last{
+    height: 120vh;
+    padding-top: 200px;
 }
+}
+/* @media (max-width:1200px) {
+    #skills{
+        height: auto;
+        padding-top: 20px;
+    }
+    #hero{
+        height: auto;
+        padding-top: 200px;
+    }
+    
+    .skill-container{
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .project-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+} */
